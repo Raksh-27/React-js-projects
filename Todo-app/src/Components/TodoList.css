@@ -1,0 +1,68 @@
+/* General list styling */
+.List {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 8px 10px;
+    background-color: #CDC1FF;
+    margin: 5px 0;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Text styling */
+  .task-text {
+    font-family: "Roboto Slab", serif;
+    font-optical-sizing: auto;
+    font-size: 16px;
+    color: #333;
+  }
+  
+  /* Edit Input Styling */
+  .edit-input {
+    padding: 6px 8px;
+    font-size: 14px;
+    border: 2px solid #8e44ad; /* Purple border */
+    border-radius: 4px;
+    background-color: #fafafa;
+    outline: none;
+    color: #2c3e50;
+    transition: border 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .edit-input:focus {
+    border-color: #3498db; /* Blue border on focus */
+    box-shadow: 0 0 5px #3498db;
+  }
+  
+  /* Button Styling */
+  .Delete, .Edit {
+    margin-left: 8px;
+    padding: 5px 10px;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+  }
+  
+  .Delete {
+    background-color: #e74c3c; /* Red */
+    color: white;
+  }
+  
+  .Delete:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+  }
+  
+  .Edit {
+    background-color: #3498db; /* Blue */
+    color: white;
+  }
+  
+  .Edit:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+  }
+  

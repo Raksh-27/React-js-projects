@@ -1,0 +1,30 @@
+.main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+.Box{
+  display: flex;
+  justify-content: center;
+  align-items: column;
+  background:#F5EFFF;
+  height: 900px;
+  width: 500px;
+  border: solid black 1px;
+  box-sizing: border-box;
+  border-radius: 2rem;
+}
+
+
+#Todo{
+  
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap:20px;
+  
+
+}
